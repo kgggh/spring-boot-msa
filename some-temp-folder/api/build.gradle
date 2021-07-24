@@ -11,14 +11,14 @@ buildscript {
 }
 
 plugins {
-	id "io.spring.dependency-management" version "1.0.11.RELEASE"
+	id "io.spring.dependency-management" version "1.0.9.RELEASE"
 }
 
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
-group = 'se.magnus.microservicess.api'
+group = 'se.magnus.microservices.api'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 1.8
 

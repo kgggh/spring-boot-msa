@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @ComponentScan("se.magnus")
 public class ProductCompositeServiceApplication {
-	
+
 	@Bean
 	RestTemplate restTemplate() {
 		return new RestTemplate();
@@ -18,5 +18,4 @@ public class ProductCompositeServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProductCompositeServiceApplication.class, args);
 	}
-	
 }
