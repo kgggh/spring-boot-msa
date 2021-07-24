@@ -2,5 +2,5 @@
 
 * 개발환경
   - Mac OS
-  - Gradle: 6.9
+  - Gradle: 6.8
   - Java: 8
